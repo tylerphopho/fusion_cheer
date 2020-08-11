@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
-import Slider from '../components/Slider';
+import Home from '../pages/Home';
+import Footer from '../components/Footer';
 // import Parallax from '../components/Parallax'
 import M from "materialize-css";
 import {
@@ -43,14 +44,14 @@ export default class Main extends Component {
                 />
                 <main>
                     <Switch>
-                        <Route exact path='/'>
-                        <Slider/>
-                        </Route>
-                        <Route exact path='/about'>
-
-                        </Route>
+                    <Route exact path='/'>
+                    <Home/>
+                    </Route>
+                    <Route exact path='/about'>
+                    </Route>
                     </Switch>
                 </main>
+                <Footer/>
                 {/* <Parallax /> */}
             </Router>
         )

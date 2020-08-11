@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './style.css'
+import '../css/style.css'
 import M from 'materialize-css'
 import Fusion from '../images/fusion_logo.JPEG'
 
@@ -50,6 +50,9 @@ export default class Navbar extends Component {
             <ul id='resources-dropdown' className='dropdown-content collection'>
                 <li className='collection-item grey darken-4'><a href='locations' className='white-text'>Sponsors</a></li>
                 <li className='collection-item grey darken-4'><a href='locations' className='white-text'>Pricing/Scheduling</a></li>
+                <li className='collection-item grey darken-4'><a href='locations' className='white-text'>Class Schedule</a></li>
+                <li className='collection-item grey darken-4'><a href='locations' className='white-text'>Create Account</a></li>
+                <li className='collection-item grey darken-4'><a href='locations' className='white-text'>Parent Login</a></li>
             </ul>
         </header>
         ) 

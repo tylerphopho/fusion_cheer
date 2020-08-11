@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './style.css'
+import '../css/style.css'
 import ImageOne from '../images/camie_wallpaper_by_sanoboss_dcuy4ej-fullview.jpg';
 import ImageTwo from '../images/cjT3JmX.png';
 import M from 'materialize-css'
@@ -31,6 +31,7 @@ export default class Slider extends Component {
                         </div>
                     </li>
                 </ul>
+                <div className='divider'></div>
             </section>
         )
     }

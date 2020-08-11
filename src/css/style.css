@@ -2,6 +2,22 @@ main {
     flex: 1 0 auto;
 }
 
+body {
+    background-color: black;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1, h2 {
+    font-family: 'Rowdies', cursive;
+}
+
+.divider {
+    background-color: white;
+    margin-bottom: 9rem;
+}
+
 .about {
     margin: 36px;
     font-size: 2rem;
@@ -42,6 +58,8 @@ nav ul a:hover {
 .collection-item {
     font-family: 'Lemonada', cursive;
 }
+.carousel .carousel-item {
+    width:300px !important;}
 
 #banner {
     max-width: 744px;
