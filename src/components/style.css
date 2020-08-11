@@ -1,0 +1,49 @@
+main {
+    flex: 1 0 auto;
+}
+
+.about {
+    margin: 36px;
+    font-size: 2rem;
+}
+
+.contact{
+    margin: 36px;
+    margin-left: 9rem;
+    font-size: 2rem;
+}
+
+.resources{
+    margin: 36px;
+    margin-right: 5rem;
+    font-size: 2rem;
+}
+
+.forums{
+    margin: 36px;
+    font-size: 2rem;
+}
+
+nav {
+    height: 100px !important;
+    font-family: 'Lemonada', cursive;
+}
+
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.dropdown-content {
+    display: none;
+    min-width: 260px; /* Changed this to accomodate content width */
+    max-height: auto;
+}
+
+.collection-item {
+    font-family: 'Lemonada', cursive;
+}
+
+#banner {
+    max-width: 744px;
+    min-height: 500px;
+}
